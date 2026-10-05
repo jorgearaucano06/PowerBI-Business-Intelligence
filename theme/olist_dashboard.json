@@ -1,0 +1,104 @@
+{
+    "name": "Olist BI Dashboard",
+    "dataColors": [
+        "#3B5998",
+        "#1FB58F",
+        "#E67E22",
+        "#E74C3C",
+        "#9B59B6",
+        "#2C3E50",
+        "#16A085",
+        "#F39C12",
+        "#C0392B",
+        "#8E44AD"
+    ],
+    "background": "#F4F5F7",
+    "foreground": "#2C3E50",
+    "tableAccent": "#3B5998",
+    "textClasses": {
+        "callout": {
+            "fontSize": 28,
+            "fontFace": "DIN",
+            "color": "#2C3E50"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "DIN",
+            "color": "#6C757D"
+        },
+        "header": {
+            "fontSize": 14,
+            "fontFace": "DIN",
+            "color": "#2C3E50"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#6C757D"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{
+                    "color": {"solid": {"color": "#FFFFFF"}},
+                    "transparency": 0
+                }],
+                "border": [{
+                    "color": {"solid": {"color": "#E8E8E8"}},
+                    "radius": 8
+                }],
+                "dropShadow": [{
+                    "show": true,
+                    "color": {"solid": {"color": "#00000010"}},
+                    "position": "Outer",
+                    "preset": "BottomRight"
+                }],
+                "title": [{
+                    "show": true,
+                    "fontColor": {"solid": {"color": "#6C757D"}},
+                    "fontSize": 10,
+                    "fontFamily": "DIN",
+                    "bold": true
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": {"solid": {"color": "#F4F5F7"}},
+                    "transparency": 0
+                }]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [{
+                    "fontSize": 24,
+                    "fontFamily": "DIN",
+                    "color": {"solid": {"color": "#2C3E50"}},
+                    "bold": true
+                }],
+                "categoryLabels": [{
+                    "fontSize": 10,
+                    "fontFamily": "DIN",
+                    "color": {"solid": {"color": "#6C757D"}}
+                }]
+            }
+        },
+        "slicer": {
+            "*": {
+                "items": [{
+                    "fontColor": {"solid": {"color": "#2C3E50"}},
+                    "fontSize": 10,
+                    "fontFamily": "DIN"
+                }],
+                "header": [{
+                    "fontColor": {"solid": {"color": "#6C757D"}},
+                    "fontSize": 10,
+                    "fontFamily": "DIN"
+                }]
+            }
+        }
+    }
+}

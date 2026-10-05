@@ -1,0 +1,69 @@
+{
+  "name": "Corporate Modern Dashboard Theme",
+  "dataColors": [
+    "#3B5998",
+    "#1FB58F",
+    "#E67E22",
+    "#4B6B94",
+    "#2CA02C",
+    "#FF7F0E",
+    "#2980B9",
+    "#16A085",
+    "#D35400",
+    "#8E44AD"
+  ],
+  "background": "#F4F5F7",
+  "foreground": "#2C3E50",
+  "tableAccent": "#3B5998",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E8E8E8" } },
+            "radius": 8
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1A252F" } },
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#6C757D" } },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F4F5F7" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "name": "Power BI Theme Generator - BIBB.PRO v1.7",
+  "dataColors": [
+    "#131A40", "#273273", "#4E64A6", "#829FD9", "#99B7F9",
+    "#7B9AE1", "#5478C7", "#335CB8", "#3599B8", "#DFBFBF",
+    "#4AC5BB", "#5F6B6D", "#FB8281", "#F4D25A", "#7F898A",
+    "#A4DDEE", "#FDAB89", "#B687AC", "#28738A", "#A78F8F",
+    "#168980", "#293537", "#BB4A4A", "#B59525", "#475052",
+    "#6A9FB0", "#BD7150", "#7B4F71", "#1B4D5C", "#706060",
+    "#0F5C55", "#1C2325"
+  ],
+  "textClasses": {
+    "callout": { "fontFace": "Arial", "color": "#011416" },
+    "header": { "color": "#011416", "fontFace": "Arial" },
+    "label": { "color": "#011416", "fontFace": "Arial", "fontSize": 9 },
+    "largeTitle": { "color": "#011416", "fontFace": "Arial", "fontSize": 9 },
+    "title": { "color": "#011416", "fontFace": "Arial", "fontSize": 9 }
+  },
+  "bad": "#ee1c25",
+  "neutral": "#949599",
+  "good": "#38b64b",
+  "maximum": "#00243A",
+  "minimum": "#b2d7ed",
+  "center": "#007bc4",
+  "firstLevelElements": "#011416",
+  "secondLevelElements": "#011416",
+  "thirdLevelElements": "#011416",
+  "fourthLevelElements": "#011416",
+  "background": "#E3EAFC",
+  "secondaryBackground": "#E3EAFC",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#E3EAFC" } }, "transparency": 0 }],
+        "border": [{ "color": { "solid": { "color": "#E3EAFC" } }, "radius": 7, "show": true }],
+        "divider": [{ "show": false, "width": 1 }],
+        "categoryAxis": [{ "showAxisTitle": false }],
+        "dropShadow": [{
+          "show": true,
+          "color": { "solid": { "color": "#0B1215" } },
+          "shadowBlur": 8, "angle": 45, "shadowDistance": 7,
+          "shadowSpread": 0, "transparency": 70,
+          "position": "Outer", "preset": "Custom"
+        }],
+        "legend": [{ "position": "TopCenter", "showTitle": false, "fontSize": 8 }],
+        "padding": [{ "top": 10, "bottom": 10, "left": 10, "right": 10 }],
+        "spacing": [{ "customizeSpacing": true, "spaceBelowTitle": 3.5 }],
+        "subTitle": [{ "show": true, "fontSize": 9 }],
+        "title": [{ "fontSize": 10, "bold": true }],
+        "totals": [{ "show": true, "bold": true, "fontSize": 8 }],
+        "valueAxis": [{
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#C0C0C0" } },
+          "gridlineStyle": "dotted", "gridlineThickness": 1,
+          "showAxisTitle": false
+        }]
+      }
+    },
+    "actionButton": {
+      "*": {
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "fill": [{ "show": true, "transparency": 0 }],
+        "icon": [{ "show": true, "lineWeight": 1 }],
+        "outline": [{ "show": false }],
+        "padding": [{ "bottom": 0, "left": 0, "right": 0, "top": 0 }],
+        "text": [{ "show": true, "horizontalAlignment": "center", "verticalAlignment": "middle", "fontSize": 8 }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "legend": [{ "show": false }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "fontSize": 20 }],
+        "padding": [{ "bottom": 0, "top": 0, "left": 0, "right": 0 }]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": true }]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "labels": [{ "show": true, "bold": true, "fontSize": 8 }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "legend": [{ "show": false }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [{ "show": false }],
+        "labels": [{ "labelStyle": "Both" }]
+      }
+    },
+    "filledMap": {
+      "*": {
+        "mapStyles": [{ "mapTheme": "grayscale" }]
+      }
+    },
+    "image": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "valueAxis": [{
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#C0C0C0" } },
+          "gridlineStyle": "dotted", "gridlineThickness": 1,
+          "showAxisTitle": false
+        }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F1F3FB" } }, "transparency": 0 }]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "legend": [{ "show": false }],
+        "labels": [{ "labelStyle": "Both" }]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "border": [{ "show": true }],
+        "grid": [{ "outlineWeight": 2, "rowPadding": 5 }],
+        "rowHeaders": [{ "wordWrap": false }],
+        "title": [{ "show": true }]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "legend": [{ "show": true, "position": "Left", "fontFamily": "Arial", "fontSize": 8 }],
+        "categoryAxis": [{ "show": true, "fontSize": 8 }],
+        "valueAxis": [{ "show": true, "position": "Left", "fontSize": 8 }]
+      }
+    },
+    "shape": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#E3EAFC" } }, "show": true, "transparency": 0 }],
+        "fill": [{ "show": false }],
+        "outline": [{ "show": false }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "header": [{ "show": true }],
+        "items": [{ "background": { "solid": { "color": "#F1F3FB" } } }]
+      }
+    },
+    "stackedAreaChart": {
+      "*": {
+        "legend": [{ "show": true, "position": "Left", "fontSize": 8 }],
+        "categoryAxis": [{ "show": true, "fontSize": 8 }],
+        "valueAxis": [{ "show": true, "position": "Left", "fontSize": 8 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "backColor": { "solid": { "color": "#F1F3FB" } }, "autoSizeColumnWidth": false }],
+        "grid": [{ "gridHorizontal": true, "rowPadding": 3.5, "outlineStyle": 1, "outlineWeight": 0.5 }],
+        "title": [{ "show": true }],
+        "values": [{
+          "backColorPrimary": { "solid": { "color": "#E3EAFC" } },
+          "backColorSecondary": { "solid": { "color": "#E3EAFC" } }
+        }]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "padding": [{ "bottom": 0, "left": 0, "right": 0, "top": 0 }]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "legend": [{ "show": false }]
+      }
+    }
+  }
+}

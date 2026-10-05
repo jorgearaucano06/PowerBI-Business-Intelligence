@@ -1,0 +1,26 @@
+# Datos (muy pesados para GitHub)
+data/
+
+# Power BI (binario, no versionable)
+*.pbix
+*.pbit
+
+# Credenciales
+.env
+*.env
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+Thumbs.db
+.DS_Store
+nul
